@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" viewBox="0 0 500 500">
+    <defs>
+        <linearGradient gradientUnits="userSpaceOnUse" x1="250" y1="0" x2="250" y2="500" id="gradient-0" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+            <stop offset="0" style="stop-color: rgb(73.333% 53.333% 100%)"/>
+            <stop offset="1" style="stop-color: rgb(44.786% 27.25% 70.662%)"/>
+        </linearGradient>
+        <bx:grid x="0" y="0" width="20" height="20"/>
+        <filter id="drop-shadow-filter-0" bx:preset="drop-shadow 1 10 10 2 0.35 rgba(0,0,0,0.3)" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+            <feOffset dx="10" dy="10"/>
+            <feComponentTransfer result="offsetblur">
+                <feFuncA id="spread-ctrl" type="linear" slope="0.7"/>
+            </feComponentTransfer>
+            <feFlood flood-color="rgba(0,0,0,0.3)"/>
+            <feComposite in2="offsetblur" operator="in"/>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="motion-blur-filter-0" bx:preset="motion-blur 1 1 horizontal" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1 0" edgeMode="none"/>
+        </filter>
+    </defs>
+    <rect width="500" height="500" style="stroke: rgb(0, 0, 0); fill-rule: nonzero; paint-order: fill; stroke-width: 0px; stroke-opacity: 0; fill: url(&quot;#gradient-0&quot;);"/>
+    <text style="fill: rgb(51, 51, 51); font-family: ISOCT; font-size: 100px; font-weight: 700; text-transform: lowercase; white-space: pre; filter: url(&quot;#drop-shadow-filter-0&quot;) url(&quot;#motion-blur-filter-0&quot;); transform-box: fill-box; transform-origin: 50.0001% 50%;" x="91.608" y="289.89">Lofi</text>
+</svg>

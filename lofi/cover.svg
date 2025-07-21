@@ -42,7 +42,7 @@
             font-weight: 700;
             text-transform: lowercase;
             white-space: pre;
-            filter: url(#drop-shadow-filter-0);
+            filter: url(#drop-shadow-filter-0) url(#motion-blur-filter-0);
             transform-box: fill-box;
             transform-origin: 50% 50%;
         }

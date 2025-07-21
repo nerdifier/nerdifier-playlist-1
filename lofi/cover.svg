@@ -37,7 +37,7 @@
         }
         text {
             fill: #333333ff;
-            font-family: ISOCT;
+            font-family: 'ISOCT';
             font-size: 100px;
             font-weight: 700;
             text-transform: lowercase;
